@@ -83,8 +83,8 @@ airflow standalone
    - Slack
    - Exchange Rates Data API (APILayer)
 3. Copie os códigos dos notebooks para seus próprios no workspace no Databricks
-4. Configure a DAG do Airflow com suas configurações específicas, incluindo tokens
-5. Execute o pipeline através do Airflow
+4. Após instalação do Airflow, copie o código do arquivo dag_currency_rates.py para sua pasta de DAG, e refatore com suas configurações específicas, incluindo tokens
+5. Configure a conexão do Airflow com o Databricks e execute o pipeline na UI do Airflow
 
 ## Configuração de Credenciais
 
