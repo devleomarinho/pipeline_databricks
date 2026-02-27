@@ -1,4 +1,4 @@
-# Pipeline de Dados para Cotações de Moedas com Azure Databricks, Apache Airflow e Slack API 
+# Pipeline de Dados com extração de API, Azure Databricks, Apache Airflow e Slack API 
 ## Sobre o Projeto
 Este projeto implementa um pipeline de dados completo para coletar, processar e visualizar cotações históricas de moedas estrangeiras. O pipeline utiliza uma arquitetura medalhão (Bronze, Silver, Gold) e é orquestrado pelo Apache Airflow, com processamento realizado no Azure Databricks e notificações automáticas via bot no Slack.
 
@@ -94,10 +94,4 @@ Para utilizar este pipeline, você precisará configurar:
 - Chave de API da Exchange Rates Data API (disponível no dashboard da APILayer após criar conta)
 - Criação da conexão do Databricks no Airflow (você precisará usar o id do workspace do Databricks na Azure)
 
-## Contribuições
 
-Contribuições são bem-vindas! Por favor, sinta-se à vontade para submeter pull requests ou abrir issues para sugestões e melhorias.
-
-## Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
